@@ -1,0 +1,39 @@
+name: coronacase
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0+4
+  font_awesome_flutter: ^8.8.1
+  responsive_widgets: ^2.0.1
+  flutter_spinkit: ^4.1.2+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  fonts:
+    - family: WorkSans
+      fonts:
+        - asset: fonts/WorkSans-Variable.ttf
+    - family: ComicNeue
+      fonts:
+        - asset: fonts/ComicNeue-Regular.ttf
+    - family: QuickSand
+      fonts:
+        - asset: fonts/QuickSand-VariableFont.ttf
+
